@@ -8,8 +8,8 @@ var textSlider = new Swiper(".text-slider", {
     watchSlidesProgress: true,
     mousewheel: true,
     navigation: {
-        nextEl: ".swipper-button-next",
-        prevEl: ".swipper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
 });
 
@@ -38,10 +38,10 @@ particlesJS("particles-js",
       "type": "circle",
     },
     "opacity": {
-      "value": 0.4,
+      "value": 0.45,
       "random": false,
       "anim": {
-        "enable": true,
+        "enable": false,
         "speed": 6,
         "opacity_min": 0.1,
         "sync": false
@@ -51,7 +51,7 @@ particlesJS("particles-js",
       "value": 4,
       "random": true,
       "anim": {
-        "enable": true,
+        "enable": false,
         "speed": 4,
         "size_min": 0.1,
         "sync": false

@@ -139,6 +139,13 @@ body {
     --swiper-navigation-color: rgba(255, 255, 255);
 }
 
+.swiper-button-next {
+    right: auto;      /* on annule la position par défaut */
+    left: 52%;        /* on la place dans la zone visible */
+}
+
+
+
 /* 10'17" */
 @media (max-width: 600px) {
     .swiper-container {
@@ -189,4 +196,10 @@ body {
     .swiper-button-prev:hover {
         transform: translateY(-6px);
     }
+
+    .swiper-button-next {
+    right: auto;      /* on annule la position par défaut */
+    left: 90%;        /* on la place dans la zone visible */
+}
+
 }
